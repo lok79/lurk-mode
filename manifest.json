@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "潜水模式 Lurk Mode - 摸鱼暗色浏览器插件",
+  "version": "0.2.3",
+  "description": "任意网页保持原布局一键变暗色摸鱼模式：图片视频变占位块防偷看，老板路过只见一片安静纯黑。护眼防窥，点击可临时查看。",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Lurk Mode",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

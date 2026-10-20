@@ -1,0 +1,19 @@
+{
+  "name": "lurk-extension",
+  "private": true,
+  "version": "0.2.3",
+  "type": "module",
+  "description": "Lurk Mode · 暗色摸鱼浏览器插件（开发版）",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint:boundaries": "depcruise src",
+    "check": "npm run typecheck && npm run lint:boundaries"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.5",
+    "dependency-cruiser": "^18.6.0",
+    "esbuild": "^0.28.2",
+    "typescript": "~5.9.0"
+  }
+}

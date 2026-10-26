@@ -42,7 +42,7 @@ Chrome → `chrome://extensions` → 开启"开发者模式" → "加载已解�
 
 ## 隐私
 
-不收集、不上传任何数据，无服务器。详见 [隐私政策](<!-- 待补 -->)。
+不收集、不上传任何数据，无服务器。详见[隐私政策](https://github.com/lok79/lurk-mode/blob/main/PRIVACY.md)。
 
 ---
 

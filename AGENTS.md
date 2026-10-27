@@ -1,6 +1,6 @@
 # lurk-extension · Agent 指南
 
-暗色摸鱼浏览器插件（Chrome MV3）。术语见 [GLOSSARY.md](./GLOSSARY.md)；规格见 [../.scratch/dark-browser/spec.md](../.scratch/dark-browser/spec.md)；决策见 [docs/adr/](./docs/adr/)。
+暗色摸鱼浏览器插件（Chrome MV3）。术语见 [GLOSSARY.md](./GLOSSARY.md)；规格见 [../.scratch/dark-browser/spec.md](../.scratch/dark-browser/spec.md)；决策见 [docs/adr/](./docs/adr/)；发版（版本号变更）前过一遍手工验收清单 [docs/acceptance.md](./docs/acceptance.md)。
 
 ## 命令
 
